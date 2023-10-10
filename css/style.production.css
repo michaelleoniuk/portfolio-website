@@ -16,6 +16,10 @@ body {
     /* Sets the font size to 16px */
     line-height: 1.6;
     /* Sets the line-height to 1.6 */
+    background-color: lightgray;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
   h1 {
@@ -32,8 +36,6 @@ body {
     font-size: 18px;
     font-weight: 700px;
   }
-
-body{background-color:white;}
 
 a {
     color: blue;
@@ -55,7 +57,7 @@ button {
         /* takes the font from the outer container */
         font-family: inherit;
         /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-        background-color: #357b70;
+        background-color: black;
         color: white;
         text-decoration: none;
         /*adds spacing to the button (this will be discussed more in-depth later) */
@@ -83,7 +85,7 @@ button {
         /* takes the font from the outer container */
         font-family: inherit;
         /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-        background-color: #357b70;
+        background-color: black;
         color: white;
         text-decoration: none;
         /*adds spacing to the button (this will be discussed more in-depth later) */
@@ -125,6 +127,7 @@ button {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  margin-top: auto;
 }
 
 .page-header {
