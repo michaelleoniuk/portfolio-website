@@ -36,24 +36,18 @@ body {
 body{background-color:white;}
 
 a {
-    color: #357b70;
+    color: darkblue;
+    text-decoration: none;
   }
-
-a:visited {
-        /* visited link */
-        color: blue;
-      }
-
-a:hover, a:focus {
-        /* No underlining when hovering over a link */
-        text-decoration: none;    
-      }
-
 
 a:active {
         /* selected link */
-        color: #05676e;
+        color: none;
       }
+
+.navigation-list__item {
+  color: white;
+}
 
 button {
         /* overwrites browser defaults and resets the border */
