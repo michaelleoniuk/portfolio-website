@@ -35,7 +35,7 @@
     font-weight: var(--hFontweight);
   }
 
-body{background-color:var(--Black);}
+body{background-color:var(--white);}
 
 a {
     color: var(--LightGreen);
@@ -43,8 +43,7 @@ a {
 
 a:visited {
         /* visited link */
-        color: none;
-        text-decoration: none;
+        color: var(--Blue);
       }
 
 a:hover, a:focus {
@@ -134,7 +133,6 @@ button {
   display: flex;
   width: 100%;
   padding: 20px;
-  background-color: black;
 }
 
 .page-header__item {
@@ -153,7 +151,6 @@ button {
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
-  color: black;
 }
 
 .grid__item {
