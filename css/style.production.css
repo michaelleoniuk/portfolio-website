@@ -127,6 +127,10 @@ button {
   background-color: white;
 }
 
+.social-media {
+  margin: 15px;
+}
+
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
