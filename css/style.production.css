@@ -98,7 +98,7 @@ button {
 .profile__portrait {
   float: inherit;
   width: 250px;
-  margin-right: 40px;
+  margin: 50px;
   border-radius: 50%;
 }
 
