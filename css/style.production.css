@@ -103,11 +103,6 @@ button {
 }
 
 .profile {
-  display: flex;
-  align-items: center;
-}
-
-.profile {
   max-width: 700px;
   margin: 0 auto;
   text-align: center;
@@ -157,7 +152,7 @@ button {
   text-align: right;
 }
 
-.navigation-list, .about-me-list {
+.navigation-list {
   list-style-type: none;
 }
 
