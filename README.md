@@ -4,6 +4,8 @@ To build a responsive website using HTML and CSS that will showcase my
 professional portfolio, which will include the projects I’ll build throughout
 my Full-Stack Web Development Program.
 
+This website is available online at https://coderzeroone.com/
+
 **The 5 W’s**
 
 - **Who?** My professional network, as well as potential employers. The website will be
